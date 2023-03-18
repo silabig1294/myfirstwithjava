@@ -1,0 +1,74 @@
+รับค่าสีซึ่งมีทั้งหมด 4สี red/white/green/yellow
+รับค่ายี่ห้อรถซึ่งมีทั้งหมด 3ยี่ห้อ honda/toyota/isuzu
+โดย honda มี red เท่านั้น toyota มี white/green เท่านั้น isuzu มี yellow/red เท่านั้น
+red honda เหลือ 2 คัน
+white toyota เหลือ 3 คัน
+green toyota เหลือ 2 คัน 
+red isuzu เหลือ 3 คัน
+yellow isuzu เหลือ 4 คัน
+หากยี่ห้อไม่มีสีใน 4สี ข้างต้นให้บอกว่า Out of Stock 
+หากใส่มาอย่างอื่นนอกจากสีข้างต้นให้บอกว่า Error no colour of ... brand แล้ววนรับค่าสีใหม่
+แล้ววนรับค่า color แค่ค่าเดียว
+หากใส่มาอย่างอื่นนอกจากยี่ห้อข้างต้นให้บอกว่า Error no brand แล้ววนรับค่ายี่ห้อใหม่
+ แล้ววนรับค่า brand แค่ค่าเดียว
+หากไม่ใช่ทั้ง 2 ค่า ให้วนรับใหม่ทั้งหมด
+input:
+Enter color: red
+Enter brand car: honda
+output:
+We have 2 left
+
+input:
+Enter color: blue
+Enter brand car: honda
+output:
+Error no colour of honda brand
+###################
+Enter color:
+
+input:
+Enter color: yellow
+Enter brand car: subaru
+output:
+Error no brand
+###################
+Enter brand:
+
+input:
+Enter color: blue
+Enter brand car: subaru
+output:
+Error no brand
+###################
+Enter color:
+
+--------------------------------------------------
+
+input
+enter column: 5
+output
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
+input
+enter column: 6
+output
+*
+**
+***
+****
+*****
+******
+*****
+****
+***
+**
+*
+  
